@@ -567,5 +567,14 @@ blockquote {
     font: normal normal 400 normal 27px / 43.2px "Open Sans", sans-serif;
     outline: rgb(255, 255, 255) none 0px;
 }/*#STRIKE_1:before*/
+@media (max-width: 1200px) {
+  p {
+    text-align:justify;
+}
+blockquote
+{
+	 text-align:justify;
+}
+}
 
 
