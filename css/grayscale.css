@@ -575,6 +575,26 @@ blockquote
 {
 	 text-align:justify;
 }
+.textcentre
+{
+	 text-align:justify!important;
 }
+.fontsize-20
+{
+    font-size: 20px!important;
+}
+}
+
+@media (max-width: 769px) {
+ .shifting-position
+{
+    margin-right: 0px!important;
+}
+}
+.shifting-position
+{
+    margin-right: 15px;
+}
+
 
 
