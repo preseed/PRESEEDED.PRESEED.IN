@@ -419,7 +419,9 @@ body {
 
 /*teaser-text*/
 		.teaser{width:100%;padding:0;margin:0;background-attachment:fixed;background-repeat:no-repeat; border-top:5px solid rgba(0,0,0,0.2);border-bottom:5px solid rgba(0,0,0,0.2);color:#fff;}
-		.teaser.fixed{}
+		.teaser_notfixed{width:100%;padding:0;margin:0;background-attachment:fixed;background-repeat:no-repeat; border-top:5px solid rgba(0,0,0,0.2);border-bottom:5px solid rgba(0,0,0,0.2);color:#fff;}
+
+                .teaser.fixed{}
 		.teaser .teaser-title{display:table;background:transparent url(../images/ui_epicslider/pattern.png) repeat;}
 		.teaser-title h4,.teaser-title h6{display: block; vertical-align:middle; color:#fff !important;}
 		
