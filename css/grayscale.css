@@ -651,3 +651,9 @@ p.headline.headline_extra.step1 {
 span.highlightedarea {
   background-color: #e76f294d;
 }
+.a-pink{
+  color: #d31b49 !important;
+}
+.a-pink-hover:hover{
+  color: #d31b49 !important;
+}
