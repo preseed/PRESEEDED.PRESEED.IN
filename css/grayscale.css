@@ -453,7 +453,7 @@ body {
 
 /*teaser-clients*/
 
-strong.yellow {
+strong.#ffd900 {
   color: #000;
   background: #fcdc01;
   padding: 0 3px;
@@ -483,7 +483,7 @@ strong.white {
   padding: 0 3px;
 }
 
-strong.yellow {
+strong.#ffd900 {
   color: #000;
   background: #fcdc01;
   padding: 0 3px;
@@ -646,14 +646,3 @@ p.headline.headline_extra.step1 {
 }
 
 
-
-
-span.highlightedarea {
-  background-color: #e76f294d;
-}
-.a-pink{
-  color: #ff005a !important;
-}
-.a-pink-hover:hover{
-  color: black !important;
-}

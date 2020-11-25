@@ -1,0 +1,41 @@
+span.highlightedarea {
+  background-color: #e76f294d;
+}
+.a-pink {
+  color: #ff005a !important;
+}
+.a-pink-hover:hover {
+  color: black !important;
+}
+
+.page.even {
+  background: #ffd900 ;
+  background-attachment: scroll;
+}
+
+.page.even {
+  color: rgba(0, 0, 0, 0.87);
+}
+.below_cover {
+  max-width: 930px;
+  margin: auto;
+  position: relative;
+}
+
+.page.even .section-title {
+  /*border-top:1px solid #444;*/
+  border-bottom: 1px solid #222;
+
+}
+
+.even .section-title h3,
+.page.even .section-title h6 {
+  color: rgb(0, 0, 0);
+}
+.page.even .section-title h3 span,
+.page.even .section-title h6 span {
+  color: rgb(0, 0, 0);
+}
+.section-title h1{
+    font-size: 5em;
+}
