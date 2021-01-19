@@ -9,7 +9,7 @@ span.highlightedarea {
 }
 
 .page.even {
-  background: #ffd900 ;
+  background: #ffd900;
   background-attachment: scroll;
 }
 
@@ -22,8 +22,6 @@ span.highlightedarea {
   position: relative;
 }
 
-
-
 .even .section-title h3,
 .page.even .section-title h6 {
   color: rgb(0, 0, 0);
@@ -32,24 +30,101 @@ span.highlightedarea {
 .page.even .section-title h6 span {
   color: rgb(0, 0, 0);
 }
-.section-title h1{
-    font-size: 5em;
+.section-title h1 {
+  font-size: 5em;
 }
-.mediumblog img{
+.mediumblog img {
   border: 4px solid rgba(0, 0, 0, 0.685);
 }
-.mediumblog img:hover{
+.mediumblog img:hover {
   opacity: 0.7;
   border: 4px solid black;
   background-color: black;
 }
-.yt-iframe{
+.yt-iframe {
   height: 40em;
   width: 60%;
 }
-@media only screen and (max-width:800px){
-  .yt-iframe{
+@media only screen and (max-width: 800px) {
+  .yt-iframe {
     height: 12em;
     width: 85%;
   }
+}
+
+summary {
+  font-size: 1.5rem;
+  font-weight: 600;
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.123);
+  color: rgb(255, 0, 64);
+  padding: 1.8rem;
+  margin-bottom: 1rem;
+  background-color: rgba(255, 255, 255, 0.966);
+  outline: none;
+  border-radius: 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  border-radius: 10px;
+  text-align: center;
+}
+summary:hover {
+  color: #000;
+}
+details[open] summary ~ * {
+  animation: sweep 0.5s ease-in-out;
+}
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-top: -10px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+details > summary::after {
+  position: absolute;
+  content: "+";
+  left: 20px;
+}
+details > .iconbtn::after {
+  position: absolute;
+  content: "+";
+  left: 20px;
+  top: 15px;
+}
+details[open] > summary::after {
+  position: absolute;
+  content: "-";
+  left: 20px;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.plus-minus:after,
+.plus-minus .collapsed:after {
+  display: inline-block;
+  width: 1em;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+
+.plus-minus:after {
+  content: "-";
+  top: -1px;
+}
+.plus-minus .collapsed:after {
+  content: "+";
+  top: 0;
+}
+.faq__content {
+  background-color: rgba(255, 255, 255, 0.986);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgb(216, 216, 216);
 }
